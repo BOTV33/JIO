@@ -4,7 +4,7 @@ module.exports = function ({ api, models, Users, Threads, Currencies }) {
         const { messageID, threadID, reaction } = event; 
 
        
-        if (reaction === '🚫') {
+        if (reaction === '😡') {
            
             return api.unsendMessage(messageID);
         }
